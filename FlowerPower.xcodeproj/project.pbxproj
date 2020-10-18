@@ -11,6 +11,8 @@
 		2FB93C35253CB1850010FCF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB93C34253CB1850010FCF1 /* ContentView.swift */; };
 		2FB93C37253CB1860010FCF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB93C36253CB1860010FCF1 /* Assets.xcassets */; };
 		2FB93C3A253CB1860010FCF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB93C39253CB1860010FCF1 /* Preview Assets.xcassets */; };
+		2FB93C43253CB1A10010FCF1 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB93C42253CB1A10010FCF1 /* Flower.swift */; };
+		2FB93C46253CBD910010FCF1 /* BlurFadeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB93C45253CBD910010FCF1 /* BlurFadeModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2FB93C36253CB1860010FCF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB93C39253CB1860010FCF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FB93C3B253CB1860010FCF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB93C42253CB1A10010FCF1 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		2FB93C45253CBD910010FCF1 /* BlurFadeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFadeModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				2FB93C36253CB1860010FCF1 /* Assets.xcassets */,
 				2FB93C3B253CB1860010FCF1 /* Info.plist */,
 				2FB93C38253CB1860010FCF1 /* Preview Content */,
+				2FB93C42253CB1A10010FCF1 /* Flower.swift */,
+				2FB93C45253CBD910010FCF1 /* BlurFadeModifier.swift */,
 			);
 			path = FlowerPower;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FB93C35253CB1850010FCF1 /* ContentView.swift in Sources */,
+				2FB93C46253CBD910010FCF1 /* BlurFadeModifier.swift in Sources */,
 				2FB93C33253CB1850010FCF1 /* FlowerPowerApp.swift in Sources */,
+				2FB93C43253CB1A10010FCF1 /* Flower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
